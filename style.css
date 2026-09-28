@@ -117,3 +117,14 @@ ul {
 strong {
     color: #ffffff;
 }
+
+@media (max-width: 600px) {
+    .skill-row {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .skill-row strong {
+        min-width: 0;
+    }
+}
